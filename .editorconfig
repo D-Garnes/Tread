@@ -1,0 +1,17 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+
+# 4 space indentation
+[{*.js,*.json,*.html}]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# Matches the exact files either package.json
+[{package.json,package-lock.json,manifest.json}]
+indent_style = space
+indent_size = 2
